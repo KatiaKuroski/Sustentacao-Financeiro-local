@@ -31,7 +31,4 @@
         //cy.get('#iFramePerfil').should('contain', 'Extrato de Comissões');click();
     });  
   }); 
-    //    describe("Corretor", () => {
-    //    it("Extrato do corretor", () => {
-    //     cy.visit("https://dashboarddsv.azulseguros.com.br/extrato-comissao/#/acesso-restrito/extrato-comissoes/32");
-    //     cy.get('.senhaRestrita').type('172e1cb3');
+    
