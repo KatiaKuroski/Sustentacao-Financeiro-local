@@ -1,0 +1,14 @@
+{
+  "name": "sustentacao-financeiro",
+  "version": "1.0.0",
+  "description": "Sustentação Financeiro - Site",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "author": "Katia M P Kuroski",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^9.3.1"
+  }
+}
