@@ -16,7 +16,7 @@
                
                 
             cy.log ("gerar boleto");
-            cy.get('img[title="Gerar Boleto"]', {timeout:40000}).first().click();
+            cy.get('img[title="Gerar Boleto"]', {timeout:30000}).first().click();
             cy.get(':nth-child(5) > :nth-child(5) > .ui-state-default').click();
             cy.get('.block-ui-container-inner > .base-modal > .covid19-container > .covid19-notification > .covid19-notification-message > .popup-actions > .bt-options > #buttonDisabledCovid').click();
             //selecione as opções

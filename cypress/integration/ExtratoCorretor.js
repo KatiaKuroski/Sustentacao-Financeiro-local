@@ -28,7 +28,7 @@
         cy.get('.login-producao > .login-form > .btn').click(); 
         cy.get(':nth-child(13) > .thickbox').click(); 
          
-        //cy.get('#iFramePerfil').should('contain', 'Extrato de Comissões');click();
+        cy.get('#iFramePerfil').should('contain', 'Extrato de Comissões');click();
     });  
   }); 
     
