@@ -24,7 +24,7 @@
         cy.get('#loginDropdown > .nav-link__label').click();
         cy.get('.btn-login-producao').click();
         cy.get('#login-producao__input').type("dccomz08");
-        cy.get('.login-producao > .login-form > .has-show-hide-password > .form-control').focus().type('Nov@12345');   
+        cy.get('.login-producao > .login-form > .has-show-hide-password > .form-control').focus().type('Nov@1234');   
         cy.get('.login-producao > .login-form > .btn').click(); 
         cy.get(':nth-child(13) > .thickbox').click(); 
          
