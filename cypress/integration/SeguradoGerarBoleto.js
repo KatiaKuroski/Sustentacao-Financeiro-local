@@ -2,7 +2,7 @@
             describe("Home Page Azul", () => {
             it("Selecionando o Cliente e a Parcela Pendente", () => {
                 cy.viewport(1920,1080)
-                cy.visit("https://wwwdsvn2.azulseguros.com.br/");
+                cy.visit("https://wwwdsvn1.azulseguros.com.br/");
                
                 cy.get('#onetrust-accept-btn-handler').click();
                 cy.get('#loginDropdown > .nav-link__label').click();
