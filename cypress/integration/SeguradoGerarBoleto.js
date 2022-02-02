@@ -7,7 +7,7 @@
                 cy.get('#onetrust-accept-btn-handler').click();
                 cy.get('#loginDropdown > .nav-link__label').click();
                 cy.get('.btn-login-cliente').click();
-                cy.get('#login-cliente__input').focus().type('295.200.518-48');
+                cy.get('#login-cliente__input').focus().type('32687426881');
                 cy.get('.login-cliente > .login-form > .has-show-hide-password > .form-control').focus().type('Nov@1234');
                 cy.get('.login-cliente > .login-form > .btn').click();
                 cy.get('.list-icons',{timeout:5000}).scrollIntoView();
