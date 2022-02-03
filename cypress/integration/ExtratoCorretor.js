@@ -20,8 +20,9 @@
  describe("Home Page Azul", () => {
     it("Perfil Atendimento para espelhamento", () => {
         cy.visit("https://wwwdsvn2.azulseguros.com.br/");
+        //cy.get('#onetrust-accept-btn-handler').click();
         cy.get('#onetrust-accept-btn-handler').click();
-        cy.get('#loginDropdown > .nav-link__label').click();
+      cy.get('#loginDropdown > .nav-link__label').click();
         cy.get('.btn-login-producao').click();
         cy.get('#login-producao__input').type("dccomz08");
         cy.get('.login-producao > .login-form > .has-show-hide-password > .form-control').focus().type('Nov@1234');   
