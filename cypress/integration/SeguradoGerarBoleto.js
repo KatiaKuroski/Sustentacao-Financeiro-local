@@ -34,9 +34,10 @@
             cy.get('.block-ui-container-inner > :nth-child(1) > .content-modal-boleto > .form-boleto > .popup-actions > .input-options > :nth-child(2) > .celularBoleto > #celularBoleto').type("41996059283");
             cy.get('.block-ui-container-inner > :nth-child(1) > .content-modal-boleto > .form-boleto > .popup-actions > .bt-options > .bt-primary').click();
             cy.get('.block-ui-container-inner > :nth-child(1) > .content-modal-boleto > .result-sendform > .bt-options > .bt-outline').click();
+            cy.get('.block-ui-container-inner > :nth-child(1) > .content-modal-boleto > .form-boleto > .popup-actions > .bt-options > .bt-outline').click();
             //cy.get('.block-ui-container-inner > :nth-child(1) > .content-modal-boleto > .result-sendform > .bt-options > #proximaParcela').click();
             
-           //cy.get('.nav-link.d-none > .nav-link > span').click();
+           cy.get('.nav-link.d-none > .nav-link > span').click();
         });
 //          it("Selecionando o Cliente e a Parcela a Vencer - Boleto", () => {
 //              cy.visit("https://wwwdsvn2.azulseguros.com.br/");
